@@ -1,0 +1,96 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./styles/DogsFundation.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.DogsFundation_main-content__TCZ8N {
+  padding: 20px;
+  background-color: #fff;
+}
+.DogsFundation_main-content__TCZ8N section {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
+.DogsFundation_main-content__TCZ8N section h2 {
+  color: #333;
+}
+.DogsFundation_main-content__TCZ8N section p {
+  color: #666;
+}
+
+.DogsFundation_container__dbRq3 {
+  /* Tu estilo global para el contenedor */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./styles/Footer.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Footer_footer__x7vJd {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  text-align: center;
+}
+
+.Footer_copy__eMPm2 {
+  color: #666;
+  font-size: 0.875rem;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./styles/Header.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Header_header__SQD4u {
+  background-color: #FFF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 10;
+}
+
+.Header_container__dGdkP {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header_logoContainer__sbCiM {
+  display: flex;
+  align-items: center;
+}
+.Header_logoContainer__sbCiM svg {
+  margin-right: 0.5rem;
+}
+
+.Header_title__iFjJB {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.Header_menu__ZvKY9 {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+.Header_menu__ZvKY9 a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+.Header_menu__ZvKY9 a:hover {
+  color: #000;
+}
+
+.Header_searchBox__2FifQ {
+  position: relative;
+}
+
+.Header_searchInput__jSzC0 {
+  border: 1px solid #ccc;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+}
