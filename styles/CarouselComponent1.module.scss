@@ -1,0 +1,27 @@
+// Añade tus estilos personalizados aquí, por ejemplo:
+.slick-slide {
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  background: #3498db;
+
+  h3 {
+    margin: 0;
+  }
+}
+
+.slick-dots {
+  bottom: -30px;
+}
+
+.slick-prev,
+.slick-next {
+  z-index: 1;
+}
+
+
+.carruselComponent {
+  // ... otros estilos ...
+  max-height: 100vh;
+  overflow: hidden; // Esto recortará el contenido que exceda la altura máxima
+}

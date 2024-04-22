@@ -1,0 +1,61 @@
+.header {
+    background-color: #FFF; // o cualquier otro color de fondo
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Sombra ligera para darle profundidad
+    position: relative; // Si necesitas posicionar absolutamente algún hijo
+    z-index: 10;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+  
+    svg {
+      margin-right: 0.5rem; // Asegúrate de que el SVG tiene los estilos adecuados
+    }
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .nav {
+    // Especifica si quieres que tu nav se muestre de una manera particular en móviles
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+  
+    a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+  
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+  
+  .searchBox {
+    position: relative;
+  }
+  
+  .searchInput {
+    border: 1px solid #ccc;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+  }

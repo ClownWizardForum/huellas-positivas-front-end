@@ -1,0 +1,24 @@
+.main-content {
+    padding: 20px;
+    background-color: #fff;
+
+    section {
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: #f0f0f0;
+        border-radius: 8px;
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+    }
+}.container {
+    /* Tu estilo global para el contenedor */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }

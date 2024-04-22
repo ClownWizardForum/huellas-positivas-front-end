@@ -1,0 +1,39 @@
+{
+  "name": "huellas-positivas",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.1.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-slick": "^0.30.2",
+    "sass": "^1.74.1",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^11.1.1",
+    "@uiw/react-json-view": "2.0.0-alpha.24",
+    "axios": "1.6.8",
+    "chart.js": "4.4.2",
+    "jose": "5.2.4",
+    "lottie-react": "2.4.0",
+    "minimatch": "9.0.4",
+    "react-lottie-player": "2.0.0",
+    "swr": "2.2.5"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "8.1.0",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.1",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-config-standard": "17.1.0",
+    "eslint-plugin-check-file": "2.8.0",
+    "eslint-plugin-react": "7.34.1",
+    "prettier": "3.2.5",
+    "sass": "1.75.0"
+  }
+}
