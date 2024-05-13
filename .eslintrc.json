@@ -1,3 +1,51 @@
 {
-  "extends": "next/core-web-vitals"
+  "env": {
+      "browser": true,
+      "es2021": true,
+      "node": true
+  },
+  "extends": [
+      "standard",
+      "next/core-web-vitals",
+      "plugin:react/recommended",
+      "plugin:react/jsx-runtime",
+      "eslint-config-prettier",
+      "eslint:recommended"
+  ],
+  "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+  },
+  "plugins": ["react", "check-file"],
+  "rules": {
+      "react/prop-types": "off",
+      "quotes": ["warn", "double"],
+      "indent": ["error", 4, { "SwitchCase": 1 }],
+      "react-hooks/exhaustive-deps": "off",
+      "no-unused-vars": [
+          "warn",
+          {
+              "varsIgnorePattern": "^_$",
+              "argsIgnorePattern": "^_$",
+              "caughtErrorsIgnorePattern": "^_$"
+          }
+      ],
+      "no-console": "warn",
+      "check-file/filename-naming-convention": [
+          "error",
+          {
+              "components/**/*.{jsx,js}": "PASCAL_CASE",
+              "styles/**/*.scss": "PASCAL_CASE",
+              "hooks/**/*.{jsx,js}": "use@(([A-Z])+([a-z]))+",
+              "app/**/*.{jsx,js}": "@(layout|page|loading|not-found|error|global-error|route|template|default)"
+          }
+      ],
+      "check-file/folder-naming-convention": [
+          "error",
+          {
+              "components/**/": "PASCAL_CASE",
+              "app/**/": "NEXT_JS_APP_ROUTER_CASE"
+          }
+      ]
+  }
 }

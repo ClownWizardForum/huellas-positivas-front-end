@@ -2,7 +2,7 @@ import React from 'react';
 
 
 import styles from '@/styles/DogsFundation.module.scss';
-import Carousel from '@/components/Carousel';
+import Carousell from '@/components/Carousel';
 
 
 export default function Page() {
@@ -12,7 +12,7 @@ export default function Page() {
       <main className="app">
 
         <div className="card">
-          <Carousel />
+          <Carousell />
         </div>
 
       </main>
