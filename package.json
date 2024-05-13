@@ -9,21 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "14.1.4",
-    "react": "^18",
-    "react-dom": "^18",
-    "react-slick": "^0.30.2",
-    "sass": "^1.74.1",
-    "slick-carousel": "^1.8.1",
-    "swiper": "^11.1.1",
     "@uiw/react-json-view": "2.0.0-alpha.24",
     "axios": "1.6.8",
     "chart.js": "4.4.2",
     "jose": "5.2.4",
     "lottie-react": "2.4.0",
     "minimatch": "9.0.4",
+    "next": "14.2.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-force-graph-2d": "^1.25.4",
+    "react-force-graph-3d": "^1.24.2",
     "react-lottie-player": "2.0.0",
-    "swr": "2.2.5"
+    "react-markdown": "9.0.1",
+    "react-syntax-highlighter": "15.5.0",
+    "swr": "2.2.5",
+    "react-table": "7.8.0"
   },
   "devDependencies": {
     "@svgr/webpack": "8.1.0",

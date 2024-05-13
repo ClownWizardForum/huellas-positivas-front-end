@@ -1,4 +1,4 @@
-// File: C:\Users\Simon\Documents\GitHub\huellas-positivas\app\page.jsx
+// File: C:\Users\Simon\Documents\GitHub\huellas-positivas-front-end\app\page.jsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

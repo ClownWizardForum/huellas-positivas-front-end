@@ -1,29 +1,23 @@
 import React from 'react';
 
-import Carruselll from "@/components/CarruselComponent1";
-import Carrusel from '@/components/Carrusel';
-import styles from '@/styles/DogsFundation.module.scss'; 
+
+import styles from '@/styles/DogsFundation.module.scss';
+import Carousel from '@/components/Carousel';
 
 
-const MainContent = () => {
+export default function Page() {
   return (
-    <main className="main-content">
-      <Carrusel/>
-      
-    </main>
-  )
-}
+    <><title>Huellas Positivas</title>
 
+      <main className="app">
 
-
-function App() {
-    return (
-        <div className="app">
-
-            <MainContent />
-
+        <div className="card">
+          <Carousel />
         </div>
-    );
+
+      </main>
+    </>
+
+  );
 }
 
-export default App;
