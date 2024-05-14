@@ -42,6 +42,8 @@ function Carousel() {
         slidesToScroll: 1,
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,
+        autoplay: true,
+        autoplaySpeed: 5000,
     };
 
     const slides = [
