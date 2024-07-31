@@ -11,9 +11,9 @@ export default function Page() {
 
       <main className="app">
 
-        <div className="card">
-          <Carousell />
-        </div>
+
+        <Carousell />
+
 
       </main>
     </>
