@@ -35,3 +35,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 /.next
+/.next
+/.next/cache/webpack
+/.next
+/.next/cache/webpack/client-development
