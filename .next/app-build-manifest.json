@@ -3,31 +3,14 @@
     "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/page.css",
+      "static/css/css-node_modules_slick-carousel_slick_slick-theme_css-node_modules_slick-carousel_slick_slick-7dbc84.css",
       "static/chunks/app/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/layout.css",
+      "static/css/css-node_modules_next_font_google_target_css-styles_DogsFundation_module_scss-styles_Footer_m-65af00.css",
       "static/chunks/app/layout.js"
-    ],
-    "/adoptions/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/adoptions/page.css",
-      "static/chunks/app/adoptions/page.js"
-    ],
-    "/adoptions/[animalId]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/adoptions/[animalId]/page.css",
-      "static/chunks/app/adoptions/[animalId]/page.js"
-    ],
-    "/not-found": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
     ]
   }
 }
