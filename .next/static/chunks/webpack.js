@@ -192,7 +192,7 @@
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
-/******/ 		__webpack_require__.h = function() { return "e8c2bcf88205c039"; }
+/******/ 		__webpack_require__.h = function() { return "c67f0184544127be"; }
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -830,8 +830,11 @@
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = __webpack_require__.hmrS_jsonp = __webpack_require__.hmrS_jsonp || {
 /******/ 			"webpack": 0,
+/******/ 			"css-app_adoptions_animalId_form_styles_module_scss": 0,
 /******/ 			"css-node_modules_next_font_google_target_css-styles_DogsFundation_module_scss-styles_Footer_m-65af00": 0,
-/******/ 			"css-app_adoptions_animalId_form_styles_module_scss": 0
+/******/ 			"css-styles_pages_AnimalDetail_module_scss": 0,
+/******/ 			"css-styles_components_AnimalCard_module_scss-styles_pages_Adoptions_module_scss": 0,
+/******/ 			"css-node_modules_slick-carousel_slick_slick-theme_css-node_modules_slick-carousel_slick_slick-7dbc84": 0
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.j = function(chunkId, promises) {
@@ -843,7 +846,7 @@
 /******/ 					if(installedChunkData) {
 /******/ 						promises.push(installedChunkData[2]);
 /******/ 					} else {
-/******/ 						if(/^(app(\-pages\-internals|\/adoptions\/\[animalId\]\/form\/page|\/layout)|main\-app)$/.test(chunkId)) {
+/******/ 						if(/^(app(\/(adoptions\/(\[animalId\]\/(|form\/)page|page)|layout|page)|\-pages\-internals)|main\-app)$/.test(chunkId)) {
 /******/ 							// setup Promise in chunk cache
 /******/ 							var promise = new Promise(function(resolve, reject) { installedChunkData = installedChunks[chunkId] = [resolve, reject]; });
 /******/ 							promises.push(installedChunkData[2] = promise);
