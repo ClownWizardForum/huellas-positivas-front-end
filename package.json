@@ -9,12 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.0.2",
     "@uiw/react-json-view": "2.0.0-alpha.24",
     "axios": "1.6.8",
     "chart.js": "4.4.2",
+    "formik": "^2.4.6",
     "jose": "5.2.4",
     "lottie-react": "2.4.0",
     "minimatch": "9.0.4",
+    "mui": "^0.0.1",
     "next": "14.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
