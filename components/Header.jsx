@@ -8,8 +8,8 @@ function Header() {
         <header className={styles.header}>
             <div className={styles.container}>
                 <div className={styles.logoContainer}>
-                    <HeaderLogo width="100px" height="100px" />
-                    <h1 className={styles.title}>Huellas Positivas</h1>
+                    <HeaderLogo width="150px" height="150px" />
+                    <h1 className={styles.title}>Fundación Huellas Positivas</h1>
                 </div>
                 <nav className={styles.nav}>
                     <ul className={styles.menu}>

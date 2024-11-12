@@ -1,8 +1,8 @@
-"use client"
+"use client";
 import { useRouter } from "next/navigation";
 import styles from "@/styles/pages/AnimalDetail.module.scss";
 
-export default function AnimalDetail() {
+export default function AnimalDetail({ params }) {
   const router = useRouter();
   // const { animalId } = router.query;
 
@@ -11,19 +11,36 @@ export default function AnimalDetail() {
     name: "Luna",
     breed: "Golden Retriever",
     age: 2,
-    img: "/images/slide1.jpg"
+    img: "/images/slide1.jpg",
   };
 
   return (
     <div className={styles.container}>
       <div className={styles.card}>
-        <img src={dummyAnimal.img} alt={`${dummyAnimal.name} the ${dummyAnimal.breed}`} className={styles.image} />
+        <img
+          src={dummyAnimal.img}
+          alt={`${dummyAnimal.name} the ${dummyAnimal.breed}`}
+          className={styles.image}
+        />
         <div className={styles.info}>
           <h1>{dummyAnimal.name}</h1>
-          <p><strong>Breed:</strong> {dummyAnimal.breed}</p>
-          <p><strong>Age:</strong> {dummyAnimal.age} years</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac neque vel nisi bibendum faucibus ut at est. Integer fringilla orci a urna dignissim, vitae sagittis nisi scelerisque.</p>
-          <button className={styles.adoptButton}>Adopt {dummyAnimal.name}</button>
+          <p>
+            <strong>Breed:</strong> {dummyAnimal.breed}
+          </p>
+          <p>
+            <strong>Age:</strong> {dummyAnimal.age} years
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac
+            neque vel nisi bibendum faucibus ut at est. Integer fringilla orci a
+            urna dignissim, vitae sagittis nisi scelerisque.
+          </p>
+          <button
+            className={styles.adoptButton}
+            onClick={() => router.push(`/adoptions/${params.animalId}/form`)}
+          >
+            Adopt {dummyAnimal.name}
+          </button>
         </div>
       </div>
     </div>

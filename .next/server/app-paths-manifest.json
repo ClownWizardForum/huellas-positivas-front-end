@@ -1,7 +1,7 @@
 {
-  "/adoptions/[animalId]/form/page": "app/adoptions/[animalId]/form/page.js",
-  "/adoptions/[animalId]/page": "app/adoptions/[animalId]/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
   "/adoptions/page": "app/adoptions/page.js",
-  "/page": "app/page.js"
+  "/adoptions/[animalId]/page": "app/adoptions/[animalId]/page.js",
+  "/adoptions/[animalId]/form/page": "app/adoptions/[animalId]/form/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

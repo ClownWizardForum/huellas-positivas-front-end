@@ -1,10 +1,10 @@
 {
   "pages": {
-    "/adoptions/[animalId]/form/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/css-app_adoptions_animalId_form_styles_module_scss.css",
-      "static/chunks/app/adoptions/[animalId]/form/page.js"
+      "static/css/css-node_modules_slick-carousel_slick_slick-theme_css-node_modules_slick-carousel_slick_slick-7dbc84.css",
+      "static/chunks/app/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -12,23 +12,23 @@
       "static/css/css-node_modules_next_font_google_target_css-styles_DogsFundation_module_scss-styles_Footer_m-65af00.css",
       "static/chunks/app/layout.js"
     ],
-    "/adoptions/[animalId]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/css-styles_pages_AnimalDetail_module_scss.css",
-      "static/chunks/app/adoptions/[animalId]/page.js"
-    ],
     "/adoptions/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/css-styles_components_AnimalCard_module_scss-styles_pages_Adoptions_module_scss.css",
       "static/chunks/app/adoptions/page.js"
     ],
-    "/page": [
+    "/adoptions/[animalId]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/css-node_modules_slick-carousel_slick_slick-theme_css-node_modules_slick-carousel_slick_slick-7dbc84.css",
-      "static/chunks/app/page.js"
+      "static/css/css-styles_pages_AnimalDetail_module_scss.css",
+      "static/chunks/app/adoptions/[animalId]/page.js"
+    ],
+    "/adoptions/[animalId]/form/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/css-app_adoptions_animalId_form_styles_module_scss.css",
+      "static/chunks/app/adoptions/[animalId]/form/page.js"
     ]
   }
 }
